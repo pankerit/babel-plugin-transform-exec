@@ -1,4 +1,4 @@
-export default function (babel) {
+module.exports = function (babel) {
   const { types: t, template } = babel;
   return {
     name: "babel-plugin-transform-exec",
